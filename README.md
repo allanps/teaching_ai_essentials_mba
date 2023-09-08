@@ -1,7 +1,7 @@
 # AI Essentials (MBA Course Materials)
 Welcome to the repository for the AI Essentials course. Here, you'll find teaching materials, resources, and main scripts used during our classes.
 
-##Contents
+## Contents
 - Lecture Notes: Summaries and key points from each lecture.
 - Assignments: Problem sets and projects for the course.
 - Scripts: Code samples and demonstrations used in class.
@@ -20,47 +20,47 @@ Contributing to this repository allows you to share insights, correct errors, an
 
 ### 3. Clone Your Forked Repository
 - Open Terminal or Command Prompt: Access the terminal (Linux/Mac) or command prompt (Windows).
-- Clone the Repository: Type the following command, replacing YOUR_USERNAME with your GitHub username:
+- Clone the Repository: Type the following command, replacing [YOUR_USERNAME] with your GitHub username:
 
-'''bash
-git clone https://github.com/YOUR_USERNAME/repository-name.git
+```bash
+git clone [https://github.com/[YOUR_USERNAME]/teaching_ai_essentials_mba](https://github.com/[YOUR_USERNAME]/teaching_ai_essentials_mba)
 This downloads your forked repository to your computer.
-'''
+```
 
 ### 4. Create a New Branch
 It's a good practice to create a new branch for each contribution. This keeps your changes organized and separate from the main branch.
 
 - Navigate to the Repository Folder:
 
-'''bash
+```bash
 cd repository-name
-'''
+```
 
 - Create a New Branch: Replace branch_name with a descriptive name for your changes:
-'''bash
+``` bash
 git checkout -b branch_name
-'''
+```
 
 ### 5. Make Your Changes
 - Edit Files: Using your preferred editor, make the necessary changes to the files.
 - Commit Changes: After making your changes, save them and go back to the terminal or command prompt:
 - Stage your changes:
 
-'''bash
+```bash
 git add .
-'''
+```
 
 Commit your changes with a descriptive message:
-'''bash
+```bash
 git commit -m "Brief description of the changes made"
-'''
+```
 
 ### 6. Push Changes to Your Fork
 Push to GitHub: Push your branch to your forked repository on GitHub:
 
-'''bash
+```bash
 git push origin branch_name
-'''
+```
 
 
 ### 7. Create a Pull Request
